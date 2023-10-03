@@ -5,7 +5,7 @@ Given User navigates to register account page
 When user enters the belwo details
 |firstname|FirstNametest110|
 |lastname			|LastNametest01|
-|email|FirstNametest999.test57@gmail.com|
+|email|FirstNametest999.test58@gmail.com|
 |telephone|1234567890|
 |password|qwert12345|
 |confirm |qwert12345|
@@ -18,7 +18,7 @@ Given User navigates to register account page
 When user enters the belwo details
 |firstname|Test1|
 |lastname			|Test2|
-|email|FirstNametest111.test55@gmail.com|
+|email|FirstNametest111.test59@gmail.com|
 |telephone|1234567890|
 |password|qwert12345|
 |confirm |qwert12345|
