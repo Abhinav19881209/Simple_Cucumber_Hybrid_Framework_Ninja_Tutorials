@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: myRunner.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 55.66 s <<< FAILURE! -- in myRunner.RunCucumberTest
-Registration Functionality.User creates an account only with mandatory fields -- Time elapsed: 5.367 s <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Your Account Has Been Created!]> but was:<[Register Account]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
-	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
-
-Registration Functionality.User creates an account only with all fields -- Time elapsed: 5.245 s <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Your Account Has Been Created!]> but was:<[Register Account]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
-	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.27 s -- in myRunner.RunCucumberTest
