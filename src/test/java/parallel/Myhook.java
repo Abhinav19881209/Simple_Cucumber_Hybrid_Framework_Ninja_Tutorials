@@ -1,4 +1,4 @@
-package hooks;
+package parallel;
 
 import java.time.Duration;
 import java.util.Properties;

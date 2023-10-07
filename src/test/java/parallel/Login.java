@@ -1,6 +1,6 @@
-package stepDefinition;
+package parallel;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import pages.Homepage;
 import pages.LoginPage;
 import pages.AccountPage;

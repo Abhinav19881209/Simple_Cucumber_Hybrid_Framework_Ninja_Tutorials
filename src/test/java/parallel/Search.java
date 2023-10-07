@@ -1,6 +1,6 @@
-package stepDefinition;
+package parallel;
 
-import org.junit.Assert;
+import org.testng.Assert;
 
 import org.openqa.selenium.WebDriver;
 
