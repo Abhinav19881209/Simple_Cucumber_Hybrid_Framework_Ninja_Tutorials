@@ -2,7 +2,7 @@ package stepDefinition;
 
 import java.util.Map;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -13,7 +13,7 @@ import pages.*;
 
 public class Registration {
 	
-	WebDriver driver = DriverFactory.getDriver();
+	WebDriver driver = DriverFactory.getInstance().getDriver();
 	
 	Homepage homepage = new Homepage(driver);
 	

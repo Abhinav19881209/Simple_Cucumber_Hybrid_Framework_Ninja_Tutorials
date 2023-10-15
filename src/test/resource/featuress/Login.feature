@@ -15,7 +15,7 @@ Examples:
 #|Testme.test23@gmail.com|qwert12345|
 #|FirstNametest22.test3@gmail.com|qwert12345|
 
-@Login
+
 Scenario Outline: Login with Invalid credentials
 Given User navigates to login page
 When User has enters email address <username>
@@ -28,7 +28,7 @@ Examples:
 |abhinav.@gmail.com|erye5|
 #|efqef.@gmail.com|efqe|
 
-@Login
+
 Scenario: Login with valid email and invalid password credentials
 Given User navigates to login page
 When User has enters email address "abhinav.khadatkar9@gmail.com" 

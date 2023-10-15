@@ -14,7 +14,6 @@ public class ElementUtils {
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	 
 	public ElementUtils(WebDriver driver) {
 		
 		this.driver = driver;
@@ -61,7 +60,7 @@ public class ElementUtils {
 	
 	
 	public void clickOnElement(WebElement element) {
-			
+		System.out.println("click method");
 	//	WebElement ele = eleToBeClickable(element);
 		element.click();
 		

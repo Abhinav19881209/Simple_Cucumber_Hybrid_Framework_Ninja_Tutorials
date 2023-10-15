@@ -1,19 +1,26 @@
 package myRunner;
 
-import org.junit.runner.RunWith;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import org.testng.annotations.DataProvider;
 
-@RunWith(Cucumber.class)
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+
 @CucumberOptions(
-				features="src/test/resource/featuress/Login.feature",
+				features="src/test/resource/featuress",
 				glue= {"stepDefinition","hooks"},
 				plugin= {"pretty","html:target/CucumberReports/Reports.html",
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 				//tags = "@Login"
 				)
-public class TestRunner {
 
+public class TestRunner extends AbstractTestNGCucumberTests {
+	
+	@Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 
 }

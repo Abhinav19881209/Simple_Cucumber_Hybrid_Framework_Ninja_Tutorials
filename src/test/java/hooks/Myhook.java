@@ -12,23 +12,28 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import utils.ConfigReader;
 import org.openqa.selenium.*;
+import driverFactory.Browserfactory;
 
 public class Myhook {
 	
 	WebDriver driver;
-	DriverFactory driverfactory;
+	Browserfactory bf = new Browserfactory();
 	
 	@Before
 	public void setUp() {
 		
-		//driverfactory = new DriverFactory();
+	//	driver = DriverFactory.getInstance().getDriver();
+		DriverFactory.getInstance().setDriverThreadLocal(bf.browserInstance(ConfigReader.initializedProperties().getProperty("browser")));
 		
-		Properties prop = ConfigReader.initializedProperties();
-		driver = DriverFactory.initializeBrowser(prop.getProperty("browser"));
-		//driver = DriverFactory.getDriver();
-	
-		driver.get(prop.getProperty("URL"));
-	
+		driver =  DriverFactory.getInstance().getDriverThreadLocal();
+		
+		System.out.println( 
+	            "Current Thread ID: "
+	            + Thread.currentThread().getId()); 
+		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get(ConfigReader.initializedProperties().getProperty("URL"));
 	}
 	
 	@After
@@ -42,8 +47,7 @@ public class Myhook {
 			
 		}
 		
-		driver.close();
-		driver.quit();
+		DriverFactory.getInstance().closeBrowser();
 	}
 	
 //	@AfterStep

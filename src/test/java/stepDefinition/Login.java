@@ -1,6 +1,6 @@
 package stepDefinition;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import pages.Homepage;
 import pages.LoginPage;
 import pages.AccountPage;
@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import driverFactory.DriverFactory;
+import hooks.Myhook;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,8 +16,7 @@ import io.cucumber.java.en.When;
 
 public class Login {
 	
-	//DriverFactory driverfactory = new DriverFactory();
-	WebDriver driver = DriverFactory.getDriver();
+	WebDriver driver = DriverFactory.getInstance().getDriver();
 	
 	private Homepage homepage;
 	private LoginPage loginpage;

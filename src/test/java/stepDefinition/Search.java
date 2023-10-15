@@ -1,6 +1,6 @@
 package stepDefinition;
 
-import org.junit.Assert;
+import org.testng.Assert;
 
 import org.openqa.selenium.WebDriver;
 
@@ -11,7 +11,7 @@ import pages.*;
 
 public class Search {
 	
-	WebDriver driver = DriverFactory.getDriver();
+	WebDriver driver = DriverFactory.getInstance().getDriver();
 	
 	SerachPage serachpage = new SerachPage(driver);
 	

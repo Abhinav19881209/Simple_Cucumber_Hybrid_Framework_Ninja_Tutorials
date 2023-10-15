@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.84 s <<< FAILURE! - in TestSuite
+myRunner.TestRunner.runScenario["User creates an account only with all fields", "Registration Functionality"](7)  Time elapsed: 4.329 s  <<< FAILURE!
+java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
+

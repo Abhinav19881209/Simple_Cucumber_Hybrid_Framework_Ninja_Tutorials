@@ -9,13 +9,17 @@ import utils.ElementUtils;
 
 public class Homepage {
 
-	WebDriver driver;
+	WebDriver ldriver;
 	
-	ElementUtils utils = new ElementUtils(driver);
+	ElementUtils utils = new ElementUtils(ldriver);
 	
 	public Homepage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		
+	//	this.driver = driver;
+		ldriver = driver;
+		
+		PageFactory.initElements(ldriver, this);
+		
 	}
 	
 	@FindBy(xpath="//span[text()='My Account']")
@@ -29,10 +33,15 @@ public class Homepage {
 	
 	public LoginPage clickOnLogin() {
 		
+		System.out.println("clcik on my account");
+		
+		System.out.println("clcik on  loginoption");
+
 		utils.clickOnElement(MyAccount);
+		
 		utils.clickOnElement(Loginoption);
 		
-		return new LoginPage(driver);
+		return new LoginPage(ldriver);
 		
 	}
 	
@@ -43,7 +52,7 @@ public class Homepage {
 //		MyAccount.click();
 //		Registeroption.click();
 		
-		return new RegistrationPage(driver);
+		return new RegistrationPage(ldriver);
 		
 	}
 
