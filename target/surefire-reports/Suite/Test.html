@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 15 23:32:24 IST 2023</td>
+<td>Started on:</td><td>Wed Nov 08 12:50:00 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>27 seconds (27377 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38651 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
 	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
 	at ?.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace304649887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace304649887'><pre>java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2130011383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2130011383'><pre>java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -93,6 +93,24 @@ function toggleAllBoxes() {
 </pre></div></td>
 <td>6</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
+<tr>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account only with mandatory fields", "Registration Functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ?.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1154707284", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1154707284'><pre>java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ?.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
+</pre></div></td>
+<td>13</td>
+<td>myRunner.TestRunner@6302bbb1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -103,9 +121,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Invalid email and valid password credentials", "Login Functionality"</td>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Invalid credentials", "Login Functionality"</td>
 <td></td>
-<td>5</td>
+<td>12</td>
+<td>myRunner.TestRunner@6302bbb1</td></tr>
+<tr>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login without any  credentials", "Login Functionality"</td>
+<td></td>
+<td>6</td>
+<td>myRunner.TestRunner@6302bbb1</td></tr>
+<tr>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>11</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
 <tr>
 <td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an duplicate account", "Registration Functionality"</td>
@@ -113,49 +141,34 @@ function toggleAllBoxes() {
 <td>6</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
 <tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for invalid products", "Search Functionality"</td>
-<td></td>
-<td>4</td>
-<td>myRunner.TestRunner@6302bbb1</td></tr>
-<tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login without any  credentials", "Login Functionality"</td>
-<td></td>
-<td>4</td>
-<td>myRunner.TestRunner@6302bbb1</td></tr>
-<tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account only with mandatory fields", "Registration Functionality"</td>
-<td></td>
-<td>6</td>
-<td>myRunner.TestRunner@6302bbb1</td></tr>
-<tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user create an account without filling any details", "Registration Functionality"</td>
-<td></td>
-<td>5</td>
-<td>myRunner.TestRunner@6302bbb1</td></tr>
-<tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login Functionality"</td>
-<td></td>
-<td>7</td>
-<td>myRunner.TestRunner@6302bbb1</td></tr>
-<tr>
 <td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for valid products", "Search Functionality"</td>
 <td></td>
 <td>5</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
 <tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Invalid credentials", "Login Functionality"</td>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for without any product", "Search Functionality"</td>
 <td></td>
-<td>7</td>
+<td>4</td>
+<td>myRunner.TestRunner@6302bbb1</td></tr>
+<tr>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for invalid products", "Search Functionality"</td>
+<td></td>
+<td>5</td>
+<td>myRunner.TestRunner@6302bbb1</td></tr>
+<tr>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with Invalid email and valid password credentials", "Login Functionality"</td>
+<td></td>
+<td>6</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
 <tr>
 <td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid email and invalid password credentials", "Login Functionality"</td>
 <td></td>
-<td>7</td>
+<td>11</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
 <tr>
-<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for without any product", "Search Functionality"</td>
+<td title='myRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: myRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user create an account without filling any details", "Registration Functionality"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>myRunner.TestRunner@6302bbb1</td></tr>
 </table><p>
 </body>
