@@ -23,7 +23,10 @@ public class Myhook {
 	public void setUp() {
 		
 	//	driver = DriverFactory.getInstance().getDriver();
-		DriverFactory.getInstance().setDriverThreadLocal(bf.browserInstance(ConfigReader.initializedProperties().getProperty("browser")));
+	//	DriverFactory.getInstance().setDriverThreadLocal(bf.browserInstance(ConfigReader.initializedProperties().getProperty("browser")));
+		
+		DriverFactory.getInstance().setDriverThreadLocal(bf.browserInstance(ConfigReader.getBrowserType()));
+		
 		
 		driver =  DriverFactory.getInstance().getDriverThreadLocal();
 		

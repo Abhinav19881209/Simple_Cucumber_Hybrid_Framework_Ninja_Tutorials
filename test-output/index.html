@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 16 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,96 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">36 methods, 16 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an account only with all fields&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an account only with all fields", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an account only with mandatory fields&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an account only with mandatory fields", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an account only with mandatory fields&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an account only with mandatory fields", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login without any  credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login without any  credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid email and valid password credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with Invalid email and valid password credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with Invalid credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for valid products&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for valid products", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an account only with all fields&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an account only with all fields", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with valid credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an duplicate account&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an duplicate account", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for without any product&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for without any product", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;user create an account without filling any details&quot;, &quot;Registration Functionality&quot;)">runScenario("user create an account without filling any details", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for invalid products&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for invalid products", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an account only with all fields&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an account only with all fields", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an account only with mandatory fields&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an account only with mandatory fields", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +192,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with valid credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;user create an account without filling any details&quot;, &quot;Registration Functionality&quot;)">runScenario("user create an account without filling any details", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for invalid products&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for invalid products", "Search Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -113,7 +212,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for without any product&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for without any product", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with Invalid credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an duplicate account&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an duplicate account", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login without any  credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login without any  credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for valid products&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for valid products", "Search Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,7 +247,47 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User creates an duplicate account&quot;, &quot;Registration Functionality&quot;)">runScenario("User creates an duplicate account", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;user create an account without filling any details&quot;, &quot;Registration Functionality&quot;)">runScenario("user create an account without filling any details", "Registration Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for valid products&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for valid products", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login without any  credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login without any  credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for invalid products&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for invalid products", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User searches for without any product&quot;, &quot;Search Functionality&quot;)">runScenario("User searches for without any product", "Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with Invalid credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with Invalid email and valid password credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with Invalid email and valid password credentials", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -138,6 +302,1058 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">myRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an account only with all fields&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an account only with all fields", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an account only with all fields","Registration Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an account only with mandatory fields&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an account only with mandatory fields", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an account only with mandatory fields","Registration Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an account only with mandatory fields&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an account only with mandatory fields", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an account only with mandatory fields","Registration Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 45 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 47 more
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login without any  credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login without any  credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login without any  credentials","Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 45 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 47 more
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with Invalid email and valid password credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with Invalid email and valid password credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with Invalid email and valid password credentials","Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 45 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 47 more
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with Invalid credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with Invalid credentials","Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 46 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 48 more
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with valid email and invalid password credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with valid email and invalid password credentials","Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 46 more
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for valid products&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for valid products", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for valid products","Search Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 46 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 48 more
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an account only with all fields&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an account only with all fields", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an account only with all fields","Registration Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 45 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 47 more
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with valid credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with valid credentials","Login Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 46 more
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an duplicate account&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an duplicate account", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an duplicate account","Registration Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 46 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 48 more
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for without any product&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for without any product", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for without any product","Search Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 46 more
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user create an account without filling any details&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("user create an account without filling any details", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user create an account without filling any details","Registration Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 45 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 47 more
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for invalid products&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for invalid products", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for invalid products","Search Functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+	at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+	at hooks.Myhook.setUp(Myhook.java:28)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread &apos;main&apos; panicked at &apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &quot;The file cannot be accessed by the system.&quot; }&apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+	... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+	at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 46 more
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an account only with all fields&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an account only with all fields", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an account only with all fields","Registration Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an account only with mandatory fields&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an account only with mandatory fields", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an account only with mandatory fields","Registration Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
+	at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -146,10 +1362,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">
-                  </a> <!-- runScenario("Login with valid email and invalid password credentials", "Login Functionality") -->
+                  <a name="runScenario(&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with valid credentials", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with valid email and invalid password credentials","Login Functionality")</span>
+                  <span class="parameters">("Login with valid credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user create an account without filling any details&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("user create an account without filling any details", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user create an account without filling any details","Registration Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for invalid products&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for invalid products", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for invalid products","Search Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -166,10 +1402,60 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;User searches for without any product&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for without any product", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for without any product","Search Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with valid email and invalid password credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with valid email and invalid password credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with Invalid credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with Invalid credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User creates an duplicate account&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an duplicate account", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an duplicate account","Registration Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Login without any  credentials&quot;, &quot;Login Functionality&quot;)">
                   </a> <!-- runScenario("Login without any  credentials", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login without any  credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for valid products&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for valid products", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for valid products","Search Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -186,10 +1472,90 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;User creates an duplicate account&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("User creates an duplicate account", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User creates an duplicate account","Registration Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user create an account without filling any details&quot;, &quot;Registration Functionality&quot;)">
+                  </a> <!-- runScenario("user create an account without filling any details", "Registration Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user create an account without filling any details","Registration Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for valid products&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for valid products", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for valid products","Search Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login without any  credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login without any  credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login without any  credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for invalid products&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for invalid products", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for invalid products","Search Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User searches for without any product&quot;, &quot;Search Functionality&quot;)">
+                  </a> <!-- runScenario("User searches for without any product", "Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User searches for without any product","Search Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Login with Invalid credentials&quot;, &quot;Login Functionality&quot;)">
                   </a> <!-- runScenario("Login with Invalid credentials", "Login Functionality") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login with Invalid credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with Invalid email and valid password credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with Invalid email and valid password credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with Invalid email and valid password credentials","Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with valid email and invalid password credentials&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login with valid email and invalid password credentials", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with valid email and invalid password credentials","Login Functionality")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -205,12 +1571,25 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;myRunner.TestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Firefox Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,7 +1601,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -256,32 +1641,156 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(36);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'myRunner.TestRunner')
-data.setCell(0, 3, 6654);
+data.setCell(0, 3, 46542);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'myRunner.TestRunner')
-data.setCell(1, 3, 5275);
+data.setCell(1, 3, 46418);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'myRunner.TestRunner')
-data.setCell(2, 3, 4988);
+data.setCell(2, 3, 45652);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'myRunner.TestRunner')
-data.setCell(3, 3, 4952);
+data.setCell(3, 3, 44998);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'myRunner.TestRunner')
-data.setCell(4, 3, 4583);
+data.setCell(4, 3, 44939);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'myRunner.TestRunner')
+data.setCell(5, 3, 44217);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'myRunner.TestRunner')
+data.setCell(6, 3, 41663);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'myRunner.TestRunner')
+data.setCell(7, 3, 41621);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'myRunner.TestRunner')
+data.setCell(8, 3, 39394);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'myRunner.TestRunner')
+data.setCell(9, 3, 36246);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'myRunner.TestRunner')
+data.setCell(10, 3, 14136);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'myRunner.TestRunner')
+data.setCell(11, 3, 13934);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'myRunner.TestRunner')
+data.setCell(12, 3, 13896);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'myRunner.TestRunner')
+data.setCell(13, 3, 13172);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'myRunner.TestRunner')
+data.setCell(14, 3, 13148);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'myRunner.TestRunner')
+data.setCell(15, 3, 12841);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'myRunner.TestRunner')
+data.setCell(16, 3, 12623);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'myRunner.TestRunner')
+data.setCell(17, 3, 12332);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'myRunner.TestRunner')
+data.setCell(18, 3, 12029);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'myRunner.TestRunner')
+data.setCell(19, 3, 11914);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'myRunner.TestRunner')
+data.setCell(20, 3, 8599);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'myRunner.TestRunner')
+data.setCell(21, 3, 8446);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'myRunner.TestRunner')
+data.setCell(22, 3, 4515);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'myRunner.TestRunner')
+data.setCell(23, 3, 4325);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'myRunner.TestRunner')
+data.setCell(24, 3, 4285);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'myRunner.TestRunner')
+data.setCell(25, 3, 4285);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'myRunner.TestRunner')
+data.setCell(26, 3, 4269);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'myRunner.TestRunner')
+data.setCell(27, 3, 4269);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'myRunner.TestRunner')
+data.setCell(28, 3, 855);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'myRunner.TestRunner')
+data.setCell(29, 3, 851);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'myRunner.TestRunner')
+data.setCell(30, 3, 851);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'myRunner.TestRunner')
+data.setCell(31, 3, 770);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'myRunner.TestRunner')
+data.setCell(32, 3, 727);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'myRunner.TestRunner')
+data.setCell(33, 3, 727);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'myRunner.TestRunner')
+data.setCell(34, 3, 390);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'myRunner.TestRunner')
+data.setCell(35, 3, 387);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -308,33 +1817,217 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">myRunner.TestRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@14555e0a)</span>
+              <div class="configuration-test before">
+                <span class="method-name">defbrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6e02721d)</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login with valid credentials", "Login Functionality")</span>
-                <span class="method-start">813 ms</span>
+                <span class="method-name">runScenario("user create an account without filling any details", "Registration Functionality")</span>
+                <span class="method-start">617 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login with Invalid credentials", "Login Functionality")</span>
-                <span class="method-start">7469 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an account only with all fields", "Registration Functionality")</span>
+                <span class="method-start">617 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</span>
-                <span class="method-start">12459 ms</span>
+                <span class="method-start">617 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login with Invalid email and valid password credentials", "Login Functionality")</span>
-                <span class="method-start">17413 ms</span>
+                <span class="method-name">runScenario("Login with Invalid credentials", "Login Functionality")</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User creates an duplicate account", "Registration Functionality")</span>
+                <span class="method-start">617 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login without any  credentials", "Login Functionality")</span>
-                <span class="method-start">22689 ms</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with valid credentials", "Login Functionality")</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with Invalid email and valid password credentials", "Login Functionality")</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User searches for valid products", "Search Functionality")</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an account only with mandatory fields", "Registration Functionality")</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User searches for invalid products", "Search Functionality")</span>
+                <span class="method-start">12542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User searches for without any product", "Search Functionality")</span>
+                <span class="method-start">12649 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">27276 ms</span>
+                <span class="method-start">17057 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test before">
+                <span class="method-name">defbrowser(firefox)</span>
+                <span class="method-start">19116 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@902fdbe)</span>
+                <span class="method-start">19116 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an account only with mandatory fields", "Registration Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login without any  credentials", "Login Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login with Invalid email and valid password credentials", "Login Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login with Invalid credentials", "Login Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User searches for valid products", "Search Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an account only with all fields", "Registration Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login with valid credentials", "Login Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an duplicate account", "Registration Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user create an account without filling any details", "Registration Functionality")</span>
+                <span class="method-start">19137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User searches for invalid products", "Search Functionality")</span>
+                <span class="method-start">19864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User searches for without any product", "Search Functionality")</span>
+                <span class="method-start">19867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">23423 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test before">
+                <span class="method-name">defbrowser(Edge)</span>
+                <span class="method-start">24547 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@796d33eb)</span>
+                <span class="method-start">24548 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with valid credentials", "Login Functionality")</span>
+                <span class="method-start">24560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User creates an duplicate account", "Registration Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an account only with all fields", "Registration Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User searches for valid products", "Search Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with Invalid email and valid password credentials", "Login Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User creates an account only with mandatory fields", "Registration Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user create an account without filling any details", "Registration Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login without any  credentials", "Login Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with Invalid credentials", "Login Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with valid email and invalid password credentials", "Login Functionality")</span>
+                <span class="method-start">24561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User searches for invalid products", "Search Functionality")</span>
+                <span class="method-start">60810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User searches for without any product", "Search Functionality")</span>
+                <span class="method-start">63956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">72402 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

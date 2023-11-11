@@ -1,317 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="36" passed="20" failed="16" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2023-11-11T17:24:52 IST" name="Suite" finished-at="2023-11-11T17:26:04 IST" duration-ms="72468">
-    <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
-    </groups>
-    <test started-at="2023-11-11T17:24:52 IST" name="Chrome Test" finished-at="2023-11-11T17:25:11 IST" duration-ms="19088">
-      <class name="myRunner.TestRunner">
-        <test-method is-config="true" signature="defbrowser(java.lang.String)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="defbrowser" finished-at="2023-11-11T17:24:52 IST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defbrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="setUpClass" finished-at="2023-11-11T17:24:52 IST" duration-ms="587" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6e02721d]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:05 IST" duration-ms="13172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:05 IST" duration-ms="12623" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user create an account without filling any details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:05 IST" duration-ms="13148" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with Invalid email and valid password credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:05 IST" duration-ms="12332" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid email and invalid password credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:05 IST" duration-ms="12841" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with Invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:06 IST" duration-ms="13896" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an duplicate account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:04 IST" duration-ms="11914" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login without any  credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:04 IST" duration-ms="12029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for valid products"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:06 IST" duration-ms="13934" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an account only with all fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Register Account] but found [Your Account Has Been Created!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
-at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:06 IST" duration-ms="14136" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an account only with mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Register Account] but found [Your Account Has Been Created!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
-at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:25:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:09 IST" duration-ms="4515" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for invalid products"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:25:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:09 IST" duration-ms="4325" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for without any product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:myRunner.TestRunner@20d525]" started-at="2023-11-11T17:25:09 IST" name="tearDownClass" finished-at="2023-11-11T17:25:11 IST" duration-ms="2024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- myRunner.TestRunner -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2023-11-11T17:25:11 IST" name="Firefox Test" finished-at="2023-11-11T17:25:16 IST" duration-ms="5403">
-      <class name="myRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="setUpClass" finished-at="2023-11-11T17:25:11 IST" duration-ms="21" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@902fdbe]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="defbrowser(java.lang.String)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="defbrowser" finished-at="2023-11-11T17:25:11 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defbrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="851" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an account only with mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+<!-- Generated by org.testng.reporters.JUnitXMLReporter -->
+<testsuite ignored="0" hostname="LAPTOP-6UBAU2B3" failures="12" tests="12" name="Firefox Test" time="5.403" errors="0" timestamp="2023-11-11T17:25:16 IST">
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.727">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -339,10 +34,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -360,14 +51,84 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.json.Json.toType(Json.java:169)
+at org.openqa.selenium.json.Json.toType(Json.java:152)
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+at org.openqa.selenium.json.Json.toType(Json.java:206)
+at org.openqa.selenium.json.Json.toType(Json.java:167)
+... 46 more
+... Removed 11 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.727">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -393,34 +154,15 @@ at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
 ... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:15 IST" duration-ms="4269" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login without any  credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... Removed 12 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.77">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -448,10 +190,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -469,233 +207,6 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.json.Json.toType(Json.java:169)
-at org.openqa.selenium.json.Json.toType(Json.java:152)
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
-... 45 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: FirefoxDriver
-at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
-at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
-at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
-at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
-at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
-at org.openqa.selenium.json.Json.toType(Json.java:206)
-at org.openqa.selenium.json.Json.toType(Json.java:167)
-... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:15 IST" duration-ms="4285" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with Invalid email and valid password credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.json.Json.toType(Json.java:169)
-at org.openqa.selenium.json.Json.toType(Json.java:152)
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
-... 45 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: FirefoxDriver
-at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
-at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
-at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
-at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
-at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
-at org.openqa.selenium.json.Json.toType(Json.java:206)
-at org.openqa.selenium.json.Json.toType(Json.java:167)
-... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="770" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with Invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -721,34 +232,15 @@ at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
 ... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="727" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid email and invalid password credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... Removed 13 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.851">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -776,9 +268,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at jdk.internal.reflect.GeneratedMethodAccessor128.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -796,233 +285,6 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.json.Json.toType(Json.java:169)
-at org.openqa.selenium.json.Json.toType(Json.java:152)
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
-... 44 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: FirefoxDriver
-at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
-at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
-at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
-at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
-at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
-at org.openqa.selenium.json.Json.toType(Json.java:206)
-at org.openqa.selenium.json.Json.toType(Json.java:167)
-... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:15 IST" duration-ms="4269" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for valid products"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.json.Json.toType(Json.java:169)
-at org.openqa.selenium.json.Json.toType(Json.java:152)
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
-... 46 more
-Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: driver.version: FirefoxDriver
-at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
-at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
-at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
-at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
-at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
-at org.openqa.selenium.json.Json.toType(Json.java:206)
-at org.openqa.selenium.json.Json.toType(Json.java:167)
-... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="727" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an account only with all fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
-at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
-at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
-at hooks.Myhook.setUp(Myhook.java:28)
-at jdk.internal.reflect.GeneratedMethodAccessor128.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
-at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
-at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -1048,34 +310,15 @@ at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
 ... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="851" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... Removed 12 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.851">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -1103,9 +346,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at jdk.internal.reflect.GeneratedMethodAccessor128.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -1123,14 +363,6 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -1156,34 +388,15 @@ at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
 ... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="855" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an duplicate account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... Removed 11 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.855">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -1211,10 +424,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -1232,15 +441,6 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -1266,34 +466,15 @@ at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
 ... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:15 IST" duration-ms="4285" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user create an account without filling any details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... Removed 13 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.387">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -1321,10 +502,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -1342,14 +519,162 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.json.Json.toType(Json.java:169)
+at org.openqa.selenium.json.Json.toType(Json.java:152)
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+at org.openqa.selenium.json.Json.toType(Json.java:206)
+at org.openqa.selenium.json.Json.toType(Json.java:167)
+... 46 more
+... Removed 11 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="0.39">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.json.Json.toType(Json.java:169)
+at org.openqa.selenium.json.Json.toType(Json.java:152)
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+... 44 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+at org.openqa.selenium.json.Json.toType(Json.java:206)
+at org.openqa.selenium.json.Json.toType(Json.java:167)
+... 46 more
+... Removed 11 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="4.269">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -1375,34 +700,15 @@ at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
 ... 47 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="390" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for invalid products"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... Removed 12 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="4.269">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -1430,9 +736,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at jdk.internal.reflect.GeneratedMethodAccessor128.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -1450,14 +753,6 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -1470,7 +765,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 at org.openqa.selenium.json.Json.toType(Json.java:169)
 at org.openqa.selenium.json.Json.toType(Json.java:152)
 at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
-... 44 more
+... 46 more
 Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
@@ -1482,35 +777,16 @@ at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoerce
 at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
-... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:12 IST" duration-ms="387" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for without any product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
-thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+... 48 more
+... Removed 13 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="4.285">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
 thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
@@ -1538,9 +814,6 @@ at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
 at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
 at hooks.Myhook.setUp(Myhook.java:28)
-at jdk.internal.reflect.GeneratedMethodAccessor128.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 at io.cucumber.java.Invoker.invoke(Invoker.java:24)
 at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -1558,14 +831,6 @@ at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(Rethrow
 at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
 at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -1578,7 +843,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 at org.openqa.selenium.json.Json.toType(Json.java:169)
 at org.openqa.selenium.json.Json.toType(Json.java:152)
 at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
-... 44 more
+... 45 more
 Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
@@ -1590,274 +855,86 @@ at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoerce
 at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
 at org.openqa.selenium.json.Json.toType(Json.java:206)
 at org.openqa.selenium.json.Json.toType(Json.java:167)
-... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:myRunner.TestRunner@1dac5ef]" started-at="2023-11-11T17:25:15 IST" name="tearDownClass" finished-at="2023-11-11T17:25:16 IST" duration-ms="1096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- myRunner.TestRunner -->
-    </test> <!-- Firefox Test -->
-    <test started-at="2023-11-11T17:25:16 IST" name="Edge Test" finished-at="2023-11-11T17:26:04 IST" duration-ms="47914">
-      <class name="myRunner.TestRunner">
-        <test-method is-config="true" signature="defbrowser(java.lang.String)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="defbrowser" finished-at="2023-11-11T17:25:16 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defbrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="setUpClass" finished-at="2023-11-11T17:25:16 IST" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@796d33eb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:03 IST" duration-ms="46542" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:03 IST" duration-ms="46418" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an duplicate account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:52 IST" duration-ms="36246" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user create an account without filling any details"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:56 IST" duration-ms="39394" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for valid products"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:58 IST" duration-ms="41621" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login without any  credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:00 IST" duration-ms="44217" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with Invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:01 IST" duration-ms="44939" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with Invalid email and valid password credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:25:58 IST" duration-ms="41663" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid email and invalid password credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:01 IST" duration-ms="44998" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an account only with all fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Register Account] but found [Your Account Has Been Created!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
-at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:28)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:02 IST" duration-ms="45652" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User creates an account only with mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Register Account] but found [Your Account Has Been Created!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at stepDefinition.Registration.user_account_should_get_created_successfull(Registration.java:58)
-at ✽.user account should get created successfull(file:///D:/Selenium%20project/Selenium_Tutorial_2023/SeleniumPractice2023/src/test/resource/featuress/Registration.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:01 IST" duration-ms="8599" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for invalid products"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:25:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-11T17:26:04 IST" duration-ms="8446" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for without any product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:myRunner.TestRunner@58ea606c]" started-at="2023-11-11T17:26:04 IST" name="tearDownClass" finished-at="2023-11-11T17:26:04 IST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- myRunner.TestRunner -->
-    </test> <!-- Edge Test -->
-  </suite> <!-- Suite -->
-</testng-results>
+... 47 more
+... Removed 12 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+  <testcase classname="io.cucumber.testng.AbstractTestNGCucumberTests" name="runScenario" time="4.285">
+    <failure type="org.openqa.selenium.remote.NoSuchDriverException" message="Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread &amp;apos;main&amp;apos; panicked at &amp;apos;called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: &amp;quot;The file cannot be accessed by the system.&amp;quot; }&amp;apos;, src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+">
+      <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}, error Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:25)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073740791, executed: [--browser, firefox, --output, json]
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:144)
+at org.openqa.selenium.manager.SeleniumManager.getDriverPath(SeleniumManager.java:299)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:22)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.Browserfactory.browserInstance(Browserfactory.java:27)
+at hooks.Myhook.setUp(Myhook.java:28)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 1920, kind: Uncategorized, message: "The file cannot be accessed by the system." }', src\lib.rs:873:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+at org.openqa.selenium.json.Json.toType(Json.java:169)
+at org.openqa.selenium.json.Json.toType(Json.java:152)
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:129)
+... 45 more
+Caused by: org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: BOOLEAN. Last 0 characters read: 
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:443)
+at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:331)
+at org.openqa.selenium.json.InstanceCoercer.lambda$apply$0(InstanceCoercer.java:76)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:174)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:149)
+at org.openqa.selenium.json.Json.toType(Json.java:206)
+at org.openqa.selenium.json.Json.toType(Json.java:167)
+... 47 more
+... Removed 12 stack frames]]>
+    </failure>
+  </testcase> <!-- runScenario -->
+</testsuite> <!-- Firefox Test -->
